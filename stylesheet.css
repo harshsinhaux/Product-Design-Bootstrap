@@ -1,0 +1,15 @@
+/* Custom CSS for offcanvas navigation */
+
+/* Remove underline effect */
+.offcanvas-body .nav-item .nav-link::after {
+    display: none;
+  }
+  
+  /* Remove bold effect on hover */
+  .offcanvas-body .nav-item:hover .nav-link,
+  .offcanvas-body .nav-item.dropdown:focus .nav-link,
+  .offcanvas-body .nav-item.dropdown.show .nav-link {
+    font-weight: normal;
+  }
+  
+ 
